@@ -1,0 +1,40 @@
+extends ./LayoutSleeve.jade
+block cabecesar 
+	body
+		section 
+			div.datos
+				ul 
+					li 
+						h2 Bienvenido a Sleeve
+						form(action="users", method="POST")
+								#form-group
+								tr
+									td 
+										label(for="nombre") tu Nombre
+									td
+										input(type="text", name="nombre", placeholder="Tu nombre" id="nombre", class="form-control", maxlength="50" )									
+								tr
+									td
+										label(for="apellido") Apellido
+									td 
+										input(type="text" name="apellido" placeholder="Tus Apellidos" id="apellido"  maxlength="50" )
+								tr 		
+									td 
+										label(for="email") dirección de E-mail: 
+									td
+										input( name="email" maxlength="80" type="text" placeholder="Tus Email" id="email" )
+								tr
+									td
+										label(for="celular") número de teléfono: 
+									td 
+										input(type="text" name="celular" placeholder="Tus telefono" id="celular" maxlength="25" )
+								tr
+									td
+										label(for="adicionales") Solicitud: 
+									td 
+										input(type="text" name="adicionales" placeholder="Tu Solicitud"  id="adicionales" maxlength="100" )
+								tr
+									td(colspan="2" style="text-align:right")
+										input(type="submit" value="Enviar" class="btn btn-info")
+
+					

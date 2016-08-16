@@ -1,0 +1,25 @@
+{
+  "name": "Cesar CesarGarzon",
+  "version": "1.0.0",
+  "description": "programara diseñado para publicitar todos los proyectos  ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cigarzol"
+  ],
+  "author": "CesarGarzon (cigarzol)",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "jade": "^1.11.0",
+    "mongodb": "^2.2.5",
+    "mongoose": "^4.5.7",
+    "nodemailer": "^2.5.0",
+    "nodemailer-smtp-transport": "^2.6.0"
+  }
+}
+
+
